@@ -1,0 +1,38 @@
+----------------------------------> Static Keyword <----------------------------------
+
+// DEFINITION //
+by using static we can make field, method, or class that can be access directly without through object.
+static can only and only access other static
+
+// Use of Static //
+1. Field (class variable). Means that field can be access directly without have to making the object first.
+2. Method (class method). ---------- // ----------
+3. Block, static block will automatically executed when a class is loaded (dimuat(?)).
+   static can only access other static.
+4. Inner Class. Means that inner class can be access directly without have to making the object of outer class first. 
+   But the drawback is when using static on inner class, we can't access the object of outer class anymore. 
+
+static is seldom to use, but usually used to make helper method.
+
+Extra note:
+when we using static we got recommended to using uppercase as to making the variable, ex: APPLICATION
+(Still don't know the reason why)
+
+// Static Import //
+by put in static on import line, you don't have to put in the name of the class. EX: (look below)
+
+from this:
+import StaticKeyword.Constant.*;
+System.out.println(Constant.APPLICATION);
+
+to this:
+import static StaticKeyword.Constant.*;
+System.out.println(APPLICATION);
+
+----------------------------------> End of Lesson <----------------------------------
+
+// intermezzo //
+helper method is used in:
+1. Provides common methods which are required by multiple classes in the project.
+2. Helper methods are generally public and static so that these can be invoked independently.
+3. Each methods of a helper class should work independent of other methods of same class.

@@ -1,0 +1,8 @@
+Default Method is used in interface since Java 8, because as we have learned before (cont)
+that in interface we cannot make concrete method.
+
+It will be hard to maintain the contract between interface and the inheritance (or implement) of the interface (child class),
+because when you add (abstract) method inside of the interface, it will force all the child class to re-declare or override
+the method that been defined in the interface ------> therefore, this is why default method is implemented.
+
+by using Default Method, we can add concrete method inside the interface.

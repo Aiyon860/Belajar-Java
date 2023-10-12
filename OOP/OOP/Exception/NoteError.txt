@@ -1,0 +1,14 @@
+----------------------------------> Error <----------------------------------
+
+// DEFINITION //
+Error is the last kind of Exception.
+Error is a class in Java, that not recommended to "try-catch". Same as Runtime Exception.
+
+Usually Error is occur when there is SERIOUS or CRUCIAL or VITAL problem that makes the application doesn't run well.
+Thus, we not recommended to "try-catch",
+that means, we recommended to turn off or shut down the application instead.
+
+For instance, at first our application cannot connect to the database,
+we recommended to make Error Exception, and then it shut off the application.
+
+----------------------------------> End of Lesson <----------------------------------

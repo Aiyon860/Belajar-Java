@@ -1,0 +1,12 @@
+----------------------------------> StackTraceElement Class <----------------------------------
+
+// DEFINITION //
+Throwable have a method called getStackTrace(), whereby results Array from StackTraceElement object.
+StackTraceElement consist of information about class, file, even the line of error located.
+Class StackTraceElement is very handy for searching/browsing location of the error that occur.
+
+// HOW TO //
+The easiest way is we can call the printStackTrace() method from Throwable class,
+to print to the console/terminal the detail error of the StackTraceElement.
+
+----------------------------------> End of Lesson <----------------------------------

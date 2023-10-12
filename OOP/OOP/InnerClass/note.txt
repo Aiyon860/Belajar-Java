@@ -1,0 +1,19 @@
+----------------------------------> Inner Class <----------------------------------
+
+// DEFINITION //
+We can make class in a class, it's called inner class.
+
+one of the cases is when we need to make a few of classes that connected one to each other,
+where a class cannot be made without other class.
+    ex: we need to make "Employee" class, where we need "Company" class, 
+        then we can make "Employee" class as a inner class of "Company".
+
+How to make inner class?
+- we can make the inner class inside of block of the outer class.
+- we can also set the access modifier to public or private to the both outer and inner class.1
+
+// ACCESS OUTER CLASS //
+1. The advantages of making inner class is that the ability to access its outer class.
+2. Inner class can read all the PRIVATE member that belong to the outer class.
+3. To access object of the outer class, we can use the name of outer class then followed by the "this" keyword. Ex: Company.This
+4. To access the super class (parent class) of the outer class, we can use the name of outer class then followed by the "super" keyword. Ex: Company.super

@@ -1,0 +1,7 @@
+Encapsulation is to ensure the private data inside the object are hidden from outside.
+
+to achieve this, we make the field to have private access modifier.
+
+thus, to access and manipulate the field data we have to serve the method.
+
+by using getter (method) and setter (method).

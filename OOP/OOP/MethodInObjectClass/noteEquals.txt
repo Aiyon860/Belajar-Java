@@ -1,0 +1,21 @@
+----------------------------------> equals Method <----------------------------------
+
+equals(); ----> used for comparing object
+
+on other programming languanges, as to checking whether one object is same to other object,
+they usually use "==" operator. But in Java, "==" operator is to checking PRIMITIVE data
+
+for NON-PRIMITIVE data, the way to checking them is by using equals method ---> equals()
+if we force using "==" in non-primitive data, that's not comparing the object, but comparing the object position on memory 
+are whether same or not.
+
+and by default, equals method will compare 2 objects in term of similarity of object position on memory.
+means that if we make 2 objects with the same field content, will still considered "Different" by the equals method.
+
+thus, it is better to override the equals method that belongs to Object class (mother of all classes).
+
+"==" is used for checking whether the method is same or not in the memory.
+by using equals(), it's checking the content of the string is same or not, not to checking whether the method is same or not.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+WARNING: ALWAYS OVERRIDE EQUALS METHOD IN MAKING A CLASS

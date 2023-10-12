@@ -1,0 +1,10 @@
+----------------------------------> toString Method <----------------------------------
+
+toString() is a method that belong to the Object class (mother of all class).
+this method is used to represent the object as String method.
+
+by default, toString() will result:
+classname + @ + hashCode
+
+but we can change the representation value of the toString method if we want to, 
+so that the object that we made can be read more easily when we print out the object.

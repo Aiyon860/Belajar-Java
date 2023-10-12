@@ -1,0 +1,56 @@
+----------------------------------> Exception <----------------------------------
+
+// TYPES OF EXCEPTION IN JAVA //
+1. Checked Exception (obligated to use try-catch expression) -> Example below
+2. Runtime Exception -> Belong to Unchecked Exception
+3. Error
+
+// DEFINITION //
+In Java, error is represented by term "exception". All of it got represented in "exception class" form.
+We can make the exception class by ourself or we can use ones from Java have provided.
+If we want to make exception, we must create class that extends "Throwable" class or the derivatives.
+
+
+// HOW TO CREATE EXCEPTION //
+Exception usually occur on method, when we create exception on method, 
+the method should be marked with "throws" keyword followed by the exception class.
+This is to tell people to be careful when using this method because there is exception/error in this method.
+
+If that method can inflict more than one kind of exception,
+we can add more than one exception class.
+
+In our code program, to create exception we can just use "throw" exception,
+then followed by the object of exception.
+
+
+// TRY AND CATCH KEYWORD //
+When we call the function/method that can inflict exception, 
+so we obligate to use "try-catch" expression in Java.
+
+We use this so that we can catch the occured exception,
+when we doesn't catch the exception, then when there is exception at a time, automatically it will stop our program.
+
+in "try" block, we just call the method that can inflict exception.
+then in "catch" block, we can do something whenever the exception occur.
+but when there is no error, the "catch" block won't be executed.
+
+We can also multiply "try-catch" expression, for instance:
+(1)
+catch (ValidationException exception) {
+    System.out.println("Data is not valid: " + exception.getMessage());
+} catch (NullPointerException exception) {
+    System.out.println("Data is null: " + exception.getMessage());
+
+(2) --> if we want to merge into one catch
+catch (ValidationException | NullPointerException exception) {
+    System.out.println("Data is not valid: " + exception.getMessage());
+
+
+// FINALLY KEYWORD //
+"finally" block will always be executed even when the exception occur or not
+So, for instance:
+in "try" block we want to read the file, then in "catch" block we want to catch if there is error.
+then in "finally" block, doesn't matter if it's success or error in reading the file, 
+we obligate to close the connection to the file, so that, it (the file) doesn't hang on to memory.
+
+----------------------------------> End of Lesson <----------------------------------

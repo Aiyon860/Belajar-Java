@@ -1,0 +1,4 @@
+----------------------------------> Final Class <----------------------------------
+
+when we put "final" keyword before "class", then that class cannot be inherited anymore.
+automatically, all child class from that parent (final) class will error.

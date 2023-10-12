@@ -1,0 +1,29 @@
+----------------------------------> Enum Class <----------------------------------
+
+// DEFINTION //
+Enum class is the class that the data inside are value-limited (that already set).
+Ex: bronze, silver, gold, platinum, diamond or reguler, premium, VIP or male and female
+
+By default, enum class will automatically extends java.lang.Enum ;
+thus, we cannot extends other class. But we can still implements interface.
+
+// ENUM MEMBERS //
+same as class as usual, we can also add members (field, method, constructor) to enum class.
+
+But constructor in particular, we cannot make public constructor.
+Because the purpose of enum class is not to be instantiated freely.
+and due to this, we can't make object out of enum.
+But then we directly use the choices of the enum (like REGULER, SILVER, GOLD that we made just now).
+
+// Conversion //
+-> from enum to string <-
+Ex: look at line 13 on EnumApp.java
+
+-> from string to enum <-
+Ex: look at line 17 on EnumApp.java
+
+-> to check all options in enum class <-
+Ex: look at line 24 on EnumApp.java
+
+----------------------------------> End <----------------------------------
+

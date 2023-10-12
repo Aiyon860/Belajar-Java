@@ -1,0 +1,13 @@
+----------------------------------> Reflection <----------------------------------
+
+// DEFINITION //
+
+
+
+
+// CODE WORKFLOW //
+<< First, look at ../Exception/ValidationUtil.validateReflection() at line 36>>
+
+
+
+----------------------------------> End of Lesson <----------------------------------

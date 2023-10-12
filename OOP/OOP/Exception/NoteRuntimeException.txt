@@ -1,0 +1,31 @@
+----------------------------------> Runtime Exception <----------------------------------
+
+// DEFINITION //
+Runtime Exception itself is belong to Unchecked Exception -> Error that occurs inside of the program logic
+Java also does not verify unchecked exception during compile-time.
+
+This exception does not obligated to be catched by using "try-catch".
+Java compiler won't complain about it when we does not put try-catch to the method that can inflict this Runtime Exception.
+
+Furthermore, we don't have to declare unchecked exceptions in a method with the "throws" keyword. Ex:
+
+---------------------------------------------------------------
+LoginRequest loginRequest2 = new LoginRequest("Tirza", "Ayu");
+         ValidationUtil.validateRuntime(loginRequest2);
+         System.out.println("Success Runtime");
+---------------------------------------------------------------
+ 
+Many kinds of Runtime Exception, for instance:
+NullPointerException, IllegalArgumentException, ArrayIndexOutOfBoundsException, ArithmeticException, and etc.
+
+// HOW TO DO //
+To make runtime exception class we have to extends "RuntimeException" class.
+
+// IMPORTANT TO NOTE!!!! //
+Even though we not obligated to catch the exception by using "try-catch", 
+but better we still use "try-catch" in runtime exception.
+
+Because if we not using "try-catch" in runtime exception, 
+later we afraid that the program can be stopped out of runtime exception.
+
+----------------------------------> End of Lesson <----------------------------------

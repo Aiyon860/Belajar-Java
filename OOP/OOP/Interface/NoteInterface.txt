@@ -1,0 +1,18 @@
+Interface is alike as Abstract Class.
+
+contract for child class is supposed to be as "Interface" not abstract.
+in Interface there are:
+1. (automatically) abstract method, doesn't have block
+2. constant field (field that cannot be changed) aka can't have (concrete) field.
+
+to inherit Interface to class, we use "implements" not "extends"
+
+Also:
+when we use Interface, the "public" and "abstract" are the default when we make the method.
+So, we don't have to declare "public" and/or "abstract" keyword to the method.
+
+
+
+-----------------------------------------------------------------------------------------------
+ PRIMARY NOTE: ABSTRACT MEAN WE HAVE TO INHERIT OR RE-DECLARE THE METHOD IN THE CHILD CLASS!!! 
+-----------------------------------------------------------------------------------------------

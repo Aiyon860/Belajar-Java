@@ -1,0 +1,8 @@
+----------------------------------> Try with Resource <----------------------------------
+
+// DEFINITION //
+In Java 7, there is new feature named "Try With Resource".
+"Try With Resource" is a mechanism that alleviate us in using the resource (that compulsory to be closed) in "Try" block.
+If we want to use this feature, we must use "AutoClosable" interface.
+
+----------------------------------> End of Lesson <----------------------------------

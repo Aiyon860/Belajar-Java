@@ -1,0 +1,11 @@
+----------------------------------> hashCode Method <----------------------------------
+
+hashCode method is integer representative, same as toString method that represent String.
+
+by using hashCode method we can fetch unique identity of our object.
+by default, hashCode will return integer value according to the data in memory. But we can override it it we want to.
+
+//// Contract to override hashCode method ////
+1. no matter how many hashCode are called, for the same object, it must result same integer data.
+2. if there are 2 objects that are same, if we compare it using equals method, thus the hashCode value must be same too.
+3. if equals method result false, the hashCode that DIFFERENT is not obliged (tidak wajib hashCode berbeda), because the limitation of amount of integers are more or less 2 billion (milyar)

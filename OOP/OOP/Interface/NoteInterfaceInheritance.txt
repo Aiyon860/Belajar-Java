@@ -1,0 +1,10 @@
+we know that child class only has 1 parent class
+but in interface, a child class can have more than 1 interface
+even interface can implement other interface, capable of more than 1. ---> multiple interface inheritance
+
+But if we want to inherit interface from other interface, we use "extends" not "implements"
+(little bit inconsistent haha)
+
+Primary note:
+class ---> interface = implements
+interface ---> interface = extends

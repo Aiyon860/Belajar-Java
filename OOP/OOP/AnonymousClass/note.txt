@@ -1,0 +1,16 @@
+----------------------------------> Anonymous Class <----------------------------------
+
+// DEFINITION //
+Anonymous class = class without name.
+is the ability to declare class, also at the same time instantiate the object.
+1. Put block {} to the OBJECT to make Anonymous class inside of the object block.
+
+Anonymous class is literally included in inner class, where its outer class is the place we make anonymous class.
+
+Anonymous class is really fit when we have to deal with the case of making interface implementation or
+simple and plain abstract class without have to making class implementation. 
+
+// CONS // 
+Anonymous class cannot be REUSED.
+So, you have to make another anonymous class when you want to instantiate other object.
+Thus wasn't same with concrete class when you can reuse it many times as you will.

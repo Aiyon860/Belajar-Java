@@ -1,0 +1,36 @@
+----------------------------------> Annotation Class <----------------------------------
+
+// DEFINITION //
+Annotation is adding metadata or information to our code program.
+Not everyone use Annotation, Annotation are usually used in making Library/Framework.
+Annotation can be access by use of "Reflection".
+
+// HOW TO DO //
+To make Annotation, we can use "@interface" keyword.
+
+// PREREQUISITE //
+Annotation can only have method with simple data type,
+also can have default value.
+
+// EX: WHERE TO USE //
+1. Look at Class.java -> Class
+2. Look at ../Interface/Laptop.java -> Interface
+3. Lool at ../EnumClass/Hierarchy.java -> Enum
+4. and etc.
+
+// PREDEFINED ANNOTATION //
+1. @Deprecated
+2. @Override
+3. @SuppressWarnings
+4. @SafeVarargs
+5. @FunctionalInterface
+
+--- Annotations That Apply to Other Annotations ---
+(or Attribute Annotation perhaps(?))
+1. @Retention
+2. @Documented
+3. @Target
+4. @Inherited
+5. @Repeatable
+
+----------------------------------> End of Lesson <----------------------------------

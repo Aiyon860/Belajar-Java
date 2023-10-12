@@ -1,0 +1,34 @@
+----------------------------------> Record Class <----------------------------------
+ 
+// LITTLE BIT OF HISTORY //
+Record class was added in java 14 but it was still in experimental mode (can be continue or removed).
+But in latest version of java (probably around java 16 and above), the record class is already implemented.
+
+
+
+// DEFINITON //
+Record class is immutable.
+immutable is we cannot change the value of the object of that record class.
+also the record class is "final" by default.
+
+Sometimes we usually make class, that the content of the class is usually the data. 
+Ex: getter and setter, equals, hashCode, and toString method/function.
+
+Record class used for ease in making the class.
+
+When we make the record class, automatically java will make getter and setter, equals, hashCode, and toSring method,
+and also the contructor automatically.
+
+When we make the record class, automatically we will "extends" java.lang.Record.
+that means we can't "extends" other class. But we can still "implement" interface to the record class.
+because record class is only to store (save) data.
+
+
+
+// RECORD CLASS CONTRUCTOR //
+By default, constructor in record class will be made automatically, correspond to the definiton of parameter in record class.
+
+But, if we want to make a change for example, we can make compact contructor, that is the constructor without () symbol.
+
+Moreover, we even can do constructor overloading. But there is a requirement...
+that the constructor overloading must call the main constructor that got created automatically in record class.

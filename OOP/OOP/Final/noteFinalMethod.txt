@@ -1,0 +1,7 @@
+----------------------------------> Final Method <----------------------------------
+
+when we put in "final" keyword to Method in the parent class, 
+then that Method cannot be override anymore by its child class.
+
+this is very suitable if we want to lock the implementation of the method,
+so that the method can't be changed anymore in its child class.
